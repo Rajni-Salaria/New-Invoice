@@ -64,7 +64,7 @@ h5.text-right {
     .content {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 
@@ -81,7 +81,7 @@ h5.text-right {
     .content1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
 
 
     }
