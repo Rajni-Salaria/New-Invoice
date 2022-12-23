@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-border {
+
+    height: 1122px;
+    border: 1px solid #a6a3a3;
+}
+
+.log.mt-2 {
+    margin: 0px 0 -20px 0;
+    padding: 36px 0 0 0;
+}
+
+h5.text-right {
+    text-align: right;
+    font-size: 30px;
+    margin: 13px -22px 0 0;
+}
+
+.col-sm-6.invoice.ps-3 {
+    font-weight: 400;
+}
+
+.col-sm-12.invoice.ps-3.mb-3 {
+    font-weight: 500;
+}
+
+.col-sm-12.invoice.ps-2 {
+    font-weight: 500;
+}
+
+
+.card {
+    display: block;
+    width: 793px;
+    height: 1122px;
+    margin: 0 auto;
+    /* box-shadow: -20px 20px 4px rgb(65, 83, 33); */
+    box-shadow: 0px 2px 1px #D3D3D3;
+    border: 0px;
+}
+
+.card.p-5.b-4 {
+    border: 0px solid black;
+    box-shadow: 0px 2px 5px #D3D3D3;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+
+
+.content {
+    display: flex;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.number1 {
+    margin: -30px 0 0 0;
+}
+
+.content1 {
+    display: flex;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .content1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+
+    }
+}
+
+
+.content3 {
+    padding: 0 12px;
+    text-align: end;
+    border-bottom: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    margin: -15px 0 0 0;
+}
+
+.text {
+    display: flex;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    h5.text-right {
+        margin: 63px 0 0 222px
+    }
+
+    .log.mt-2 {
+        margin: 0px 0 -55px 0;
+        padding: 71px 0 0 0;
+    }
+}
+
+table.table-bordered {
+    border: 1px solid rgb(216 210 210);
+}
+
+tbody {
+    border: 0px solid #fbf3f3;
+}
+
+table.table-bordered.new {
+    border-block-start-color: 0px white;
+    border-left-color: 0px white;
+    border-left-color: 0px white;
+
+}
+
+h6.india {
+    color: black;
+    font-weight: 400;
+    text-decoration: solid;
+}
